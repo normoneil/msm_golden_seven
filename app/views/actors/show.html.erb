@@ -1,0 +1,17 @@
+<h1>Actor #<%= @actors.id %></h1>
+
+<dl>
+  <dt>Dob</dt>
+  <dd><%= @actors.dob %></dd>
+
+  <dt>Name</dt>
+  <dd><%= @actors.name %></dd>
+
+  <dt>Bio</dt>
+  <dd><%= @actors.bio %></dd>
+
+  <dt>Image</dt>
+  <dd><img src="<%= @actors.image_url %>" width="320"></dd>
+</dl>
+
+<p><a href="/actors">Go Back</a></p>
